@@ -6,8 +6,8 @@ Neural network application to identify patients at high-risk for heart events (I
 
 https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-020-1023-5
 
-*Motive* Predict patients that died before their next follow-up. Machine learning tools can be immensely helpful to identify patients at high risk for life-threatening heart events.
+**Motive** Predict patients that died before their next follow-up. Machine learning tools can be immensely helpful to identify patients at high risk for life-threatening heart events.
 
-Results This model applies a random forest classifer with a few significant variables. That output is fed into a neural network and run through a few dozen one-cycle iterations to achieve an accuracy of 98% on the hold-out dataset. between
+**Results** This model applies a random forest classifer with a few significant variables. That output is fed into a neural network and run through a few dozen one-cycle iterations to achieve an accuracy of 98% on the hold-out dataset. between
 
-Part I In this notebook, you'll see exploratory data analysis of the dataset. This will help identify the critical features to build a random forest classifier. We also prep the datasets to be fed into the neural network in this part. In the next notebook, you'll see development and inference of the neural network.
+**Part I** In this notebook, you'll see exploratory data analysis of the dataset. This will help identify the critical features to build a random forest classifier. We also prep the datasets to be fed into the neural network in this part. In the next notebook, you'll see development and inference of the neural network.

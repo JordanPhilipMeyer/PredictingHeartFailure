@@ -11,3 +11,5 @@ https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-020-1023-
 **Results** This model applies a random forest classifer with a few significant variables. That output is fed into a neural network and run through a few dozen one-cycle iterations to achieve an accuracy of 98% on the hold-out dataset. between
 
 **Part I** In this notebook, you'll see exploratory data analysis of the dataset. This will help identify the critical features to build a random forest classifier. We also prep the datasets to be fed into the neural network in this part. In the next notebook, you'll see development and inference of the neural network.
+
+**Part II** We feed our modified dataset (normalized plus RF classifer additions) into a neural network and tweak the learning rate through a few dozen cycles to reach a loss of ~ 0.02 on the validation dataset. This suggests great opportunites for identifying high-risk patients earlier in their treatment.
